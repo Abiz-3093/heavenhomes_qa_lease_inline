@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   
-  <!--Include below script in Head tag.-->
+ <!--Include below script in Head tag.-->
             <link rel="stylesheet" href="https://phoenixinlineuqast.z8.web.core.windows.net/style.css" />
             <script src="https://phoenixinlineuqast.z8.web.core.windows.net/aiconcierge.js"></script>
               <script>
@@ -18,8 +18,8 @@
                     target: "target-chat-id",
                     apiKey: "196962f3-36e4-433e-b68e-72bcc0c49344",
                     productId: "random-id",
-                    chatBotType: "SalesConcierge",
-                    // listingId: "<listingId>",
+                    chatBotType: "LeaseConcierge",
+                    //listingId: "<listingId>"
                   });
                    window.onload = function() {assistant.init();}
                 }
@@ -29,6 +29,10 @@
                   });
                 }
               </script>
+
+            <!-- Please add below in part of website where you want the inline chat to load. -->
+            <!-- Height, width can be adjusted -->
+            <div id="target-chat-id" style="height: 400px; width: 100%;"></div>
            
   <style>
     :root{
